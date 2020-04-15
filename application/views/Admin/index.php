@@ -1,5 +1,6 @@
-<title>Admin Dashboard</title>
 
 <div class="content">
-<h2>Test</h2>
+    <div id="home">
+        Ini Dashboard
+    </div>
 </div>

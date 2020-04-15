@@ -12,7 +12,6 @@ class admin extends CI_Controller {
         $this->load->view('Admin/index');
         
     }
-
 }
 
 /* End of file admin.php */
