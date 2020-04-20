@@ -2,15 +2,8 @@
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link rel="stylesheet" href="<?= base_url(); ?>assets/css/admin.css">
 
-<style>
-
-</style>
-
-
 <div class="nav-top">
-    <ul class="nav-sub">
-    <h3 style="color: white;">Admin Dashboard</h3>
-    </ul>
+    <h1 style="color: white; text-align: center;">Vape Shop</h1>
 </div>
 
 <div class="nav-col">
@@ -18,8 +11,8 @@
     <p>Selamat Datang, User</p> <br>
     <nav class="navigation d-flex w-100 justify-content-between">
         <ul class="mainmenu">
-            <li><a href="#home">Dashboard</a></li>
-            <li><a href="<?= base_url(); ?>tambah">Tambah Produk</a></li>
+            <li><a href="<?= base_url(); ?>admin">Dashboard</a></li>
+            <li><a href="<?= base_url(); ?>admin/tambah">Tambah Produk</a></li>
             <li><a href="">List Produk</a>
             <ul class="submenu">
                 <li><a href="">Mod</a></li>

@@ -4,6 +4,7 @@
 
   <form class="box" action="" method="post">
     <h1>Register</h1>
+    <input type="text" name="" placeholder="Email">
     <input type="text" name="" placeholder="Username">
     <input type="text" name="" placeholder="Alamat">
     <input type="password" name="" placeholder="Password">
@@ -12,5 +13,3 @@
     <button class="sign-up"><a href="<?= base_url(); ?>login">Silahkan Login Disini</a></button>
   </form>
 </body>
-
-</html>
